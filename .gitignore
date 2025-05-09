@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Django
+db.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.env
+
+# Environment
+.env
+venv/
+env/
+*.env.*
+
+# Migrations (optional - keep if you're not sharing migration files)
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+*/migrations/*.py~
+*/migrations/*.py
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# Node / React frontend
+node_modules/
+build/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+*.swp
