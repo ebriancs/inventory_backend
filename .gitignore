@@ -53,3 +53,6 @@ Thumbs.db
 # Git
 .git/
 *.swp
+
+# Django static files
+/staticfiles/
